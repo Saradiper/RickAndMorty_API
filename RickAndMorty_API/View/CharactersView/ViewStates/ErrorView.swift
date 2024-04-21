@@ -33,11 +33,12 @@ struct ErrorView: View {
                 .padding()
             }
         .background(
-            Image("GreenBackground")
+            Image("greenBackground")
                 .renderingMode(.original)
                 .resizable()
                 .modifier(BackgroundImageModifier())
                 .edgesIgnoringSafeArea(.all)
+            
         )
         .modifier(BoxBackground())
     }

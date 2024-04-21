@@ -29,20 +29,24 @@ class CharactersViewModel: ObservableObject {
         Task {
             do {
                 let charactersResponse = try await fetchAllCharactersUseCase.fetchAll()
-                ProcessCharacters(characters: charactersResponse)
+                await ProcessCharacters(characters: charactersResponse)
             } catch {
-                ProcessError(error: error.localizedDescription)
+                if let apiError = error as? APIError {
+                    await ProcessError(error: apiError)
+                }
             }
         }
     }
     
+    @MainActor
     private func ProcessCharacters(characters: [CharacterResponse]) {
         self.characters = characters
         isLoading = false
     }
     
-    private func ProcessError(error: String?) {
-        self.errorMessage = error
+    @MainActor
+    private func ProcessError(error: APIError) {
+        self.errorMessage = error.localizedDescription
         isLoading = false
     }
     
