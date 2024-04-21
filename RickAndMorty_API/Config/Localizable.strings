@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  RickAndMorty_API
+
+  Created by Sara Diaz Perez on 21/4/24.
+  
+*/
+
+/* ERROR */
+"error.message.generic" = "Oops! It seems like we have encountered a technical glitch";
+"error.message.badResponse" = "Oh, jeez! It seems like we have had a connection error with our interdimensional server";
+"error.message.unknown" = "Anomaly alert! Something unexpected has occurred in the space-time fabric";
+"error.message.badURL" = "Wubba lubba dub dub! We have encountered a rebellious URL that refuses to cooperate. We are engaged in an epic battle to conquer it and bring it back on the right path";
+"error.message.genericURL" = "Oh, dear! It seems like we have stumbled upon a defective interdimensional URL";
+"error.message.sesion" = "Oops! It appears that we have encountered a hurdle in the URL session";
+"error.message.parsing" = "It seems like we have encountered a parsing problem";
+"error.message.statusCode" = "Curse it! We have received an unwanted response with an unexpected status code ";
+
+
+
+/* VIEW */
+"view.about.appInfo" = "On this site, you will find information about your favorite scientist and his unfortunate grandson, along with other prominent characters from the series.";
+
+
+/* BUTTON */
+"button.tryAgain" = "Try again";
+
+"button.mainView.characters" = "Characters";
+"button.mainView.about" = "About the app";
+
+
+
+/* OTHER */
+"isLoading.true.characters" = "Our space portals are materializing the characters...";
