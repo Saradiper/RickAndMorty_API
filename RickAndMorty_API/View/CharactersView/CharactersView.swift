@@ -21,6 +21,9 @@ struct CharactersView: View {
                 CharactersListView(characters: viewModel.characters)
             }
         }
+        .onAppear() {
+            viewModel.fetchAllCharacters()
+        }
     }
         
 }
