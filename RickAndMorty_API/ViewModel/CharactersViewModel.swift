@@ -19,7 +19,6 @@ class CharactersViewModel: ObservableObject {
     init(characters: [CharacterResponse] = [], fetchAllCharactersUseCase: FetchAllCharactersProtocol = FetchAllCharactersUseCase()) {
         self.characters = characters
         self.fetchAllCharactersUseCase = fetchAllCharactersUseCase
-        fetchAllCharacters()
     }
     
     func fetchAllCharacters() {
@@ -50,7 +49,8 @@ class CharactersViewModel: ObservableObject {
         isLoading = false
     }
     
-    //Preview helpers
+    
+    //MARK: Preview helpers
     static func errorState() -> CharactersViewModel {
         let fetcher = CharactersViewModel()
         fetcher.errorMessage = APIError.url(URLError.init(.notConnectedToInternet)).localizedDescription

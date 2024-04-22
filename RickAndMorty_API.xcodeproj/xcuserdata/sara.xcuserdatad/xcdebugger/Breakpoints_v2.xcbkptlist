@@ -7,52 +7,100 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1B77BC1D-BEDE-422F-B784-4CA3CEC09672"
+            uuid = "973775E5-28AE-4D3E-BB25-DDF06ADB3B72"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
+            filePath = "RickAndMorty_APITests/APIMockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "ProcessError(error:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetch(_:url:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E4AE9797-2D64-438F-9738-3C1AE8A9C820"
+            uuid = "AE6F9197-2453-4283-9313-DEBDC2B4F06C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_API/API/APIError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "description"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63A9729D-B9BD-45C5-9E77-74815DE642E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_API/API/APIError.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "localizedDescription"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EC419AC-AA3A-43D6-A3EA-5DD0F8D673F9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "ProcessCharacters(characters:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchAllCharacters()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "68E83320-B184-40F1-87E6-4C4E3B1865CE"
+            uuid = "8D0CE113-055C-4B75-B2FA-864FFC4CD20B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_APITests/APIMockService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "APIMockService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "fetchAllCharacters()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "68E83320-B184-40F1-87E6-4C4E3B1865CE - 92c383fefe0406bf"
+                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 92c383fefe0406bf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -64,10 +112,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "31"
                   endingLineNumber = "31"
-                  offsetFromSymbolStart = "74">
+                  offsetFromSymbolStart = "85">
                </Location>
                <Location
-                  uuid = "68E83320-B184-40F1-87E6-4C4E3B1865CE - 74030e9695042d85"
+                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 74030e9695042d85"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -82,11 +130,11 @@
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "68E83320-B184-40F1-87E6-4C4E3B1865CE - 77c547f370c36cb8"
+                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 28a121195e72d4b4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty_API.CharactersViewModel.fetchAllCharacters() -&gt; ()"
+                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty_API.CharactersViewModel.fetchAllCharacters() -&gt; ()"
                   moduleName = "RickAndMorty_API"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/ViewModel/CharactersViewModel.swift"
@@ -94,41 +142,9 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "31"
                   endingLineNumber = "31"
-                  offsetFromSymbolStart = "75">
+                  offsetFromSymbolStart = "114">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AB80CCE1-0F01-40BB-9BB6-62EB1160C35B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "fetchAllCharacters()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "973775E5-28AE-4D3E-BB25-DDF06ADB3B72"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_APITests/APIMockService.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "fetch(_:url:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
