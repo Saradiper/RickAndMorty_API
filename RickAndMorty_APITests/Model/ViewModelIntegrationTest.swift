@@ -16,8 +16,20 @@ final class ViewModelIntegrationTest: XCTestCase {
     var apiService : APIMockService!
     var subscriptions = Set<AnyCancellable>()
     
+    // MARK: Test lifecycle
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        setupCharactersViewModel()
+    }
+    
+    override func tearDownWithError() throws {
+        super.tearDown()
+    }
+    
+    // MARK: Test setup
+    
+    func setupCharactersViewModel() {
         apiService = APIMockService.shared
         
         let fetchAllCharacterUseCase = FetchAllCharactersUseCase(apiService: apiService)
@@ -25,12 +37,10 @@ final class ViewModelIntegrationTest: XCTestCase {
         sut = CharactersViewModel(fetchAllCharactersUseCase: fetchAllCharacterUseCase)
     }
     
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    // MARK: Tests
     
     @MainActor
-    func testFetchCharacters() throws {
+    func testFetchCharactersSuccess() throws {
         //Given
         apiService.mockedResult = RickAndMortyResponse.createDefault()
         
@@ -48,8 +58,9 @@ final class ViewModelIntegrationTest: XCTestCase {
         wait(for: [promise], timeout: 14)
         
         //Then
-        XCTAssertEqual(sut.characters.count, 1)
-        XCTAssertNil(sut.errorMessage)
+        XCTAssertEqual(sut.characters.count, 1, "ProcessCharacters() should be called, characters should be mocked")
+        XCTAssertNil(sut.errorMessage, "errorMessage should be nil")
+        XCTAssertFalse(sut.isLoading, "ProcessCharacters() should be called, isLoading should be nil")
     }
     
     @MainActor
@@ -78,7 +89,9 @@ final class ViewModelIntegrationTest: XCTestCase {
         wait(for: [promise], timeout: 14)
         
         //Then
-        XCTAssertEqual(sut.characters.count, 0)
+        XCTAssertEqual(sut.characters.count, 0, "characters should be nil")
+        XCTAssertNotNil(sut.errorMessage, " ProcessError() should be called,errorMessage should be not nil")
+        XCTAssertFalse(sut.isLoading, "ProcessCharacters() should be called, isLoading should be nil")
     }
     
 }
