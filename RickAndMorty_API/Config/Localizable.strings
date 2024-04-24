@@ -18,8 +18,19 @@
 
 
 
+/* GENERICS */
+"unknown" = "Unknown";
+"species" =  "Species";
+"type" = "Type";
+"gender" = "Gender";
+"location" = "Location";
+
+
+
 /* VIEW */
 "view.about.appInfo" = "On this site, you will find information about your favorite scientist and his unfortunate grandson, along with other prominent characters from the series.";
+
+
 
 
 /* BUTTON */
