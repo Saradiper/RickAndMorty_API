@@ -39,38 +39,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "63A9729D-B9BD-45C5-9E77-74815DE642E0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_API/API/APIError.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "localizedDescription"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3EC419AC-AA3A-43D6-A3EA-5DD0F8D673F9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "fetchAllCharacters()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8D0CE113-055C-4B75-B2FA-864FFC4CD20B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -87,62 +55,189 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430"
+            uuid = "F01265FC-7A1D-4313-AAAA-27ACD69CB6A6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RickAndMorty_API/ViewModel/CharactersViewModel.swift"
+            filePath = "RickAndMorty_APITests/Mock/APIMockService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "fetchAllCharacters()"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetch(_:url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE8E6DA-3996-4A04-9810-50939EB01387"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchAll()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 92c383fefe0406bf"
+                  uuid = "EEE8E6DA-3996-4A04-9810-50939EB01387 - 48f76441772c8ab9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty_API.CharactersViewModel.fetchAllCharacters() -&gt; ()"
+                  symbolName = "(4) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
                   moduleName = "RickAndMorty_API"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/ViewModel/CharactersViewModel.swift"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "85">
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "215">
                </Location>
                <Location
-                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 74030e9695042d85"
+                  uuid = "EEE8E6DA-3996-4A04-9810-50939EB01387 - 48f76441772c8ab9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty_API.CharactersViewModel.fetchAllCharacters() -&gt; ()"
+                  symbolName = "(4) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
                   moduleName = "RickAndMorty_API"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/ViewModel/CharactersViewModel.swift"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A5561C-E30B-4EF0-AC03-BD93925CC77F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchAll()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73A5561C-E30B-4EF0-AC03-BD93925CC77F - 2a22a6cbdc517eb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
+                  moduleName = "RickAndMorty_API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "269">
+               </Location>
+               <Location
+                  uuid = "73A5561C-E30B-4EF0-AC03-BD93925CC77F - 2e3f6095e987a82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
+                  moduleName = "RickAndMorty_API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
                   offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "0A796ACA-9702-4A5B-BF25-9D63C73C5430 - 28a121195e72d4b4"
+                  uuid = "73A5561C-E30B-4EF0-AC03-BD93925CC77F - beb092af42383ab5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in RickAndMorty_API.CharactersViewModel.fetchAllCharacters() -&gt; ()"
+                  symbolName = "(3) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
                   moduleName = "RickAndMorty_API"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/ViewModel/CharactersViewModel.swift"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "114">
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "73A5561C-E30B-4EF0-AC03-BD93925CC77F - 48f76441772c948a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
+                  moduleName = "RickAndMorty_API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87590C65-4527-422C-A17D-20E3D88CC38C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchAll()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87590C65-4527-422C-A17D-20E3D88CC38C - beb092af42383a73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
+                  moduleName = "RickAndMorty_API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "87590C65-4527-422C-A17D-20E3D88CC38C - beb092af42383a73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for RickAndMorty_API.FetchAllCharactersUseCase.fetchAll() async throws -&gt; Swift.Array&lt;RickAndMorty_API.CharacterResponse&gt;"
+                  moduleName = "RickAndMorty_API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sara/Documents/Swift/JobTest/Bemobile%20API%20test/RickAndMorty_API/RickAndMorty_API/UseCases/FetchAllCharactersUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "491">
                </Location>
             </Locations>
          </BreakpointContent>
